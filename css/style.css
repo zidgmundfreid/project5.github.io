@@ -1,0 +1,162 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #828282;
+}
+
+.header {
+  padding-bottom: 100px;
+}
+.container {
+  width: 945px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu__list {
+  padding-top: 40px;
+  height: 50px;
+  margin: top;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #828282;
+}
+
+.menu__list a {
+  text-decoration: none;
+  color: #828282;
+}
+
+.menu__list a:hover {
+  color: #070707;
+}
+
+.home {
+  padding-top: 35px;
+}
+
+.home__info {
+  padding-bottom: 55px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home__name {
+  font-size: 47.3392px;
+  color: #070707;
+}
+
+.home__profession {
+  font-weight: 500;
+  color: #070707;
+  width: 240px;
+  text-align: right;
+}
+
+.aboutme {
+  background-color: #f4f4f4;
+}
+
+.aboutme__title {
+  padding-top: 50px;
+  padding-bottom: 46px;
+  color: #070707;
+  font-size: 34px;
+  text-align: center;
+}
+
+.aboutme__info {
+  display: flex;
+  padding-bottom: 50px;
+}
+
+.aboutme__photo {
+  width: 450px;
+  height: 450px;
+}
+.aboutme__text {
+  margin: auto auto auto 44px;
+  width: 451px;
+  color: #070707;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.aboutme__text p {
+  margin-bottom: 30px;
+}
+
+.skills__title {
+  color: #070707;
+  font-size: 34px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.skills__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills__list-item {
+  text-align: center;
+  height: 205px;
+  flex-direction: column;
+  padding-bottom: 50px;
+}
+
+.skills__list-item-image {
+  margin-bottom: 24px;
+}
+
+.skills__list-item-text {
+  margin-bottom: 40px;
+}
+
+.skills__list-item-text-last {
+  margin-bottom: 56px;
+}
+.portfolio {
+  background-color: #f4f4f4;
+}
+.portfolio__title {
+  color: #070707;
+  font-size: 34px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.portfolio__project-url {
+  text-align: center;
+  padding-top: 46px;
+  padding-bottom: 86px;
+}
+
+.portfolio__project-url a {
+  font-weight: 500;
+  font-size: 18px;
+  color: #070707;
+}
+
+.portfolio__project-url-last {
+  padding-bottom: 50px;
+}
+
+.footer__title {
+  color: #070707;
+  font-size: 34px;
+  text-align: center;
+  padding-top: 52px;
+  padding-bottom: 37px;
+}
+
+.footer__social {
+  display: flex;
+  width: 340px;
+  justify-content: space-between;
+  margin: 0 auto;
+  list-style: none;
+  padding-bottom: 60px;
+}
